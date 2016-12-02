@@ -1,0 +1,40 @@
+.border-radius(@radius) {
+  -webkit-border-radius: @radius;
+     -moz-border-radius: @radius;
+          border-radius: @radius;
+}
+
+.border-radius-r(@radius) {
+  -webkit-border-top-right-radius: @radius;
+     -moz-border-top-right-radius: @radius;
+         border-top-right-radius: @radius;
+
+  -webkit-border-bottom-right-radius: @radius;
+     -moz-border-bottom-right-radius: @radius;
+         border-bottom-right-radius: @radius;
+}
+
+.centerText(@height) {
+	text-align: center;
+	vertical-align: middle;
+	line-height: @height;
+}
+
+.transition(@duration) {
+	transition-duration:@duration;
+  transition-timing-function:ease-in;
+}
+
+.grayscale(@hommany) {
+	-webkit-filter: grayscale(@hommany);
+  -moz-filter: grayscale(@hommany);
+  -ms-filter: grayscale(@hommany);
+  -o-filter: grayscale(@hommany);
+  filter: grayscale(@hommany);
+  filter:gray;
+}
+
+.resetHiper{
+  text-decoration: none;
+  color:white;
+}
